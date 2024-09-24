@@ -8,8 +8,8 @@
             "value": "en-US"
         }
     ],
-    "input_path": "locales/zh-CN.json",
-    "output_path": "locales/en-US.json",
+    "input_path": "public/locales/zh-CN.json",
+    "output_path": "public/locales/en-US.json",
     "default_tool": "ai",
     "target_language": ""
 }

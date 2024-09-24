@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 module.exports = async (config) => {
-  console.log(config);
+  const configFilePath = path.join(__dirname, "../config.json");
 
   // 定义问题
   const questions = [

@@ -11,6 +11,14 @@ program.version("1.0.0").name(`
     使用ai自动转换i18n文件\n
 `);
 
+/** 更新cache */
+program
+  .command("update cache")
+  .description("更新cache 文件")
+  .action((...args) => {
+    require("./action/update-cache")(config, ...args);
+  });
+
 /** 编辑 config 文件 */
 program
   .command("f")

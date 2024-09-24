@@ -10,13 +10,14 @@ module.exports = (content, lang) => {
       {
         model: "glm-4",
         stream: false,
-        temperature: 0.3,
-        max_tokens: 4095,
+        temperature: 0.2,
+        max_tokens: 2095,
         messages: [
           {
             role: "user",
             content: `${content}
-            你好,我在做前端i18n国际化,上面是我目前国际化文件的的内容,请你帮我翻译一份完整的${lang}.json内容,直接给我json文件内容,不要其他输出额外的内容`,
+             
+            上面是我目前i18n国际化文件的的内容,请你帮我翻译一份完整的${lang}.json内容,请保持json数据结构与我给你的i18n国际化文件完全一致，不要有多余的key。value是中所有内容都需要翻译，阿拉伯数字请直接复用就行`,
           },
         ],
       },
