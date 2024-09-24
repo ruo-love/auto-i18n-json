@@ -1,0 +1,15 @@
+{
+    "ai": {
+        "key": "3f57b9ca67b50fa34984e692cb7528d7.n8vgcUOAn5E5eMXS"
+    },
+    "languages": [
+        {
+            "name": "en-US",
+            "value": "en-US"
+        }
+    ],
+    "input_path": "locales/zh-CN.json",
+    "output_path": "locales/en-US.json",
+    "default_tool": "ai",
+    "target_language": ""
+}

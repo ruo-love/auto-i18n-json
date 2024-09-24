@@ -1,0 +1,28 @@
+{
+    "title": "Title",
+    "description": "Description 2121",
+    "data": {
+        "name": "Product 21",
+        "description": "One Apple 12"
+    },
+    "today121": "Today 1221",
+    "time": "Time 2121",
+    "product": {
+        "name": "Product 21",
+        "description": "Assuming this is a product description, it might be better as 'One Apple iPhone 12' for clarity"
+    },
+    "today": "Today 1221",
+    "translations": {
+        "data": {
+            "name": "Product 21",
+            "description": "One Apple iPhone 12"
+        },
+        "today121": "Today December 21st",
+        "time": "Time 21:21",
+        "product": {
+            "name": "Product 21",
+            "description": "One Apple iPhone 12"
+        },
+        "today": "Today December 21st"
+    }
+}
